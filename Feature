@@ -1,0 +1,20 @@
+Procedure for jenkins job Build
+First select a New Iteam
+Create a name on Pipeline3
+select a Pipeline type of peoject
+Under General
+Give a Description about your Job
+select a descard old buildings
+under Log rotation 
+days to keep builds give a number how many days you want
+under maximum no.of builds give a number how many builds numbers you want this is execute under fifo model
+go to build trigger section
+select poll scm
+under poll scm give all stars
+Goto Pipeline
+Click on Pipeline syntax
+Select first git:git
+give your project github url
+and select branch master or main
+and click on generate pipeline syntax
+copy the syntax and paste it under configure pipelin module
